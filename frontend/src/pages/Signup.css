@@ -1,0 +1,33 @@
+.bgsign {
+    background-image: url(C:\Users\Riya\OneDrive\Desktop\Dialogue\Pictures\signup_page.jpeg);
+    height: 92vh;
+    background-position: center;
+    background-size: cover;            /*setting the size of the background image*/
+    background-repeat: no-repeat;      /*repetation of the background image along the x or y axis*/
+    overflow-x: hidden;                /* used to specify whether to clip the content or add a scroll bar in the x axis*/
+}
+
+.pic-container {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.profile-pic {
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid gray;
+    object-fit: cover;
+    height: 100px;
+}
+
+.add-picture-icon {
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    color: yellow;
+    background: white;
+    cursor: pointer;
+    z-index: 99;
+}

@@ -1,0 +1,20 @@
+.bghome {
+    background-image: url(C:\Users\Riya\OneDrive\Desktop\mern-chat-app\Pictures\home_1.jpg);
+    height: 86vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.space{
+    margin-left: 10px;
+}
+
+.align {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
